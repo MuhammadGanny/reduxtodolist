@@ -15,7 +15,7 @@ const AddTask = ({ addTask }) => {
 
   return (
     <div className="add-task">
-      <h2>Add Task</h2>
+      <h2 className="add-heading">Add Task</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
