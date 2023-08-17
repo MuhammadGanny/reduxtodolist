@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* styles.css */
+
+/* Main container for the task list */
+.task-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each task item */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Completed task items */
+.task-item.completed {
+  background-color: #d9edf7;
+}
+
+/* Task text */
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Buttons */
+.task-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.task-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.edit-button {
+  background-color: #f0ad4e;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+/* Add task form */
+.add-task-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-task-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-task-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
