@@ -6,9 +6,12 @@ import AddTask from './components/AddTask';
 function App() {
   return (
     <div className="App">
-      <h1>Task Management System</h1>
-      <TaskList />
+      <h1 className="heading">Task Management System</h1>
       <AddTask />
+      <br></br>
+      <br></br>
+      <TaskList />
+      
     </div>
   );
 }
