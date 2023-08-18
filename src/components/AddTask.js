@@ -21,6 +21,7 @@ const AddTask = ({ addTask }) => {
           type="text"
           placeholder="Enter task title"
           value={taskTitle}
+          className="task-inp"
           onChange={e => setTaskTitle(e.target.value)}
         />
         <button type="submit">Add Task</button>

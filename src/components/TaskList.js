@@ -24,12 +24,14 @@ const TaskList = ({ tasks, toggleTask, editTask, deleteTask }) => {
             <input
               type="checkbox"
               checked={task.completed}
+              className="che"
               onChange={() => toggleTask(task.id)}
             />
             {task.editing ? (
               <input
                 type="text"
                 value={editedTitle}
+                className="sv-bt"
                 onChange={(e) => setEditedTitle(e.target.value)}
                 onBlur={() => handleEditSave(task.id)}
               />
@@ -37,11 +39,11 @@ const TaskList = ({ tasks, toggleTask, editTask, deleteTask }) => {
               task.title
             )}
             {task.editing ? (
-              <button onClick={() => handleEditSave(task.id)}>Save</button>
+              <button onClick={() => handleEditSave(task.id)} className="bt-tl">Save</button>
             ) : (
-              <button onClick={() => handleEditStart(task.id, task.title)}>Edit</button>
+              <button onClick={() => handleEditStart(task.id, task.title)} className="bt-tl">Edit</button>
             )}
-            <button onClick={() => deleteTask(task.id)}>Delete</button>
+            <button onClick={() => deleteTask(task.id)} className="bt-tl">Delete</button>
           </li>
         ))}
       </ul>
