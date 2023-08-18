@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reduxtodolist/static/css/main.4db15d51.css",
+    "main.js": "/reduxtodolist/static/js/main.b48ad2e6.js",
+    "index.html": "/reduxtodolist/index.html",
+    "main.4db15d51.css.map": "/reduxtodolist/static/css/main.4db15d51.css.map",
+    "main.b48ad2e6.js.map": "/reduxtodolist/static/js/main.b48ad2e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4db15d51.css",
+    "static/js/main.b48ad2e6.js"
+  ]
+}
